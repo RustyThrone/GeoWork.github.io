@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coração Verde - Ecopátio Pedro Nunes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; background: #0d0d0d; color: #f5f5f5; overflow-x: hidden; }
+    header { height: 100vh; background: url('https://images.unsplash.com/photo-1524594048331-e825c68f9e8f') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; animation: fadeIn 2s ease-in; }
+    header h1 { font-size: 4rem; background: linear-gradient(45deg, #00ff99, #00ccff); -webkit-background-clip: text; color: transparent; }
+    nav { background: #111; padding: 1rem 2rem; display: flex; justify-content: space-around; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: #00ffcc; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #ffffff; }
+    section { padding: 4rem 2rem; max-width: 1200px; margin: auto; opacity: 0; transform: translateY(40px); transition: opacity 1s ease, transform 1s ease; }
+    section.visible { opacity: 1; transform: translateY(0); }
+    section h2 { font-size: 2.5rem; color: #00ffcc; margin-bottom: 1rem; }
+    .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .galeria img { width: 100%; border-radius: 12px; transition: transform 1s ease, opacity 1s ease; opacity: 0; transform: scale(0.95); }
+    .galeria img.visible { opacity: 1; transform: scale(1); }
+    .equipe { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+    .equipe div { background: #1a1a1a; padding: 1rem; border-radius: 12px; text-align: center; }
+    footer { text-align: center; padding: 2rem; background: #111; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coração Verde<br>Ecopátio Pedro Nunes</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#piscina">Piscina</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#equipe">Equipa</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>O "Coração Verde" é um ecopátio inovador pensado para transformar o espaço exterior da Escola Pedro Nunes num centro ecológico, educativo e relaxante. Com jardins verticais, zonas solares e hortas urbanas, pretendemos criar um ambiente sustentável e inspirador para todos.</p>
+  </section>
+
+  <section id="objetivos">
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Fomentar a consciência ambiental</li>
+      <li>Promover o bem-estar dos alunos</li>
+      <li>Envolver a comunidade escolar na sustentabilidade</li>
+      <li>Transformar espaços em zonas verdes produtivas</li>
+      <li>Criar um local de lazer para os alunos</li>
+      <li>Utilizar os rendimentos da piscina para investir em materiais de ensino e infraestrutura escolar</li>
+      <li>Proporcionar descanso e bem-estar com espaços verdes e vegetação autóctone</li>
+    </ul>
+  </section>
+
+  <section id="piscina">
+    <h2>Piscina Ecológica</h2>
+    <p>A proposta de uma piscina ecológica no Ecopátio visa criar um espaço de lazer e aprendizagem sustentável, onde a água é filtrada naturalmente através de plantas aquáticas e biofiltros. Esta piscina promove o contacto com a natureza e a consciência ambiental, sem o uso de químicos agressivos.</p>
+    <h3>Funcionamento</h3>
+    <p>Após o fim das aulas e durante os fins de semana, a piscina estará aberta. O acesso exige o pagamento de uma mensalidade. A escola continuará a ser pública e gratuita; apenas a piscina será paga.</p>
+    <h3>Proposta</h3>
+    <p>Criação de uma piscina no local do campo de voleibol, rodeada por espaços verdes.</p>
+    <img src="https://images.unsplash.com/photo-1581592435324-73b927b99c31" alt="Piscina Ecológica" style="width:100%; margin-top:2rem; border-radius:12px;">
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galeria</h2>
+    <img src="https://images.unsplash.com/photo-1560185127-6a8c02effb3e" alt="Horta">
+    <img src="https://images.unsplash.com/photo-1545259741-2ea3a4d18f4b" alt="Jardim Vertical">
+    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-YPXsKp3bfQZP3oLT6xM37Scv/user-xgOLhh4H5FEGahzEapPuzR4W/img-HmahiCPGbmlq3MybnZVaO8D0.png" alt="Ecopátio IA 1">
+    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-YPXsKp3bfQZP3oLT6xM37Scv/user-xgOLhh4H5FEGahzEapPuzR4W/img-ZeZDNlfgcAy9qBoCAarXpCB2.png" alt="Ecopátio IA 2">
+    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-YPXsKp3bfQZP3oLT6xM37Scv/user-xgOLhh4H5FEGahzEapPuzR4W/img-Yh13gJ2EPapwJ7bBubNiSHp6.png" alt="Ecopátio IA 3">
+    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-YPXsKp3bfQZP3oLT6xM37Scv/user-xgOLhh4H5FEGahzEapPuzR4W/img-u7Ef5ZRtq3FJ6GLc65LOvdVJ.png" alt="Ecopátio IA 4">
+  </section>
+
+  <section id="equipe" class="equipe">
+    <h2>A Equipa</h2>
+    <div>
+      <h3>Tiago Silvestre</h3>
+      <p>Coordenador do Projeto</p>
+    </div>
+    <div>
+      <h3>Miguel</h3>
+      <p>Designer e Implementador</p>
+    </div>
+    <div>
+      <h3>Bernardo</h3>
+      <p>Responsável pelo Ambiente</p>
+    </div>
+    <div>
+      <h3>Vasco</h3>
+      <p>Logística e Comunicação</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Escola Secundária Pedro Nunes<br>Email: ecopatio@escolapedronunes.pt<br>Instagram: @ecopatio.pedronunes</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ecopátio Coração Verde - Escola Pedro Nunes</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('section');
+    const images = document.querySelectorAll('.galeria img');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    sections.forEach(section => observer.observe(section));
+    images.forEach(img => observer.observe(img));
+  </script>
+</body>
+</html>
